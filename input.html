@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<style>
+		#app{
+			display:flex;
+      align-items:center;
+      justify-content:center;
+      height:100vh;
+		}
+    input{
+      border-radius:10px;
+      border:2px solid skyblue;
+      outline:none;
+      padding:7px;
+    }
+    p{
+        text-align: center;
+    }
+
+	</style>
+    	<script>
+            function fn(){
+            let inpref=document.getElementById('in');
+            let divref=document.getElementById('app')
+            let parref=document.getElementById('pa')
+            parref.innerText=inpref.value
+        }
+          
+          
+              </script>
+</head>
+
+<body>
+    <div><h2> 
+        assignment 1:Create input element and whatever text written in input must be displayed into the p tag</h2></div>
+	<div id="app">
+<div><input id="in" oninput="fn()" type="text">
+<p id="pa">
+
+</p>
+</div>
+		
+	</div>
+
+
+</body>
+
+</html>
